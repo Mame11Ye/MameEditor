@@ -1,13 +1,22 @@
 body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
-header background: header {
-    background: rgba(0, 123, 255, 0.8); /* Semi-transparent blue */
-    color: white;
-    padding: 30px;
-    border-radius: 15px; /* Soft rounded corners */
-    width: 90%; /* Make it cover more width */
-    margin: 20px auto; /* Center it */
-    text-align: center;
+header background: header header {
+    background: rgba(0, 123, 255, 0.8); /* Stylish blue background */
+    color: white; /* White text */
+    padding: 40px; /* Space inside the header */
+    border-radius: 20px; /* Rounded edges */
+    width: 85%; /* Width control */
+    margin: 20px auto; /* Center the header */
+    text-align: center; /* Center text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     backdrop-filter: blur(10px); /* Apply blur effect */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    
+    font-family: 'Poppins', sans-serif; /* Stylish font */
+    font-weight: 700; /* Bold text */
+    font-size: 24px; /* Make text larger */
+    letter-spacing: 1px; /* Add space between letters */
 }
 h1, h2 { color: #007bff; }
 ul { list-style: none; padding: 0; }
