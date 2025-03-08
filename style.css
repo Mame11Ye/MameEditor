@@ -1,5 +1,14 @@
 body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
-header { background: #007bff; color: white; padding: 20px; }
+header background: header {
+    background: rgba(0, 123, 255, 0.8); /* Semi-transparent blue */
+    color: white;
+    padding: 30px;
+    border-radius: 15px; /* Soft rounded corners */
+    width: 90%; /* Make it cover more width */
+    margin: 20px auto; /* Center it */
+    text-align: center;
+    backdrop-filter: blur(10px); /* Apply blur effect */
+}
 h1, h2 { color: #007bff; }
 ul { list-style: none; padding: 0; }
 li { background: #f3f3f3; margin: 10px; padding: 10px; border-radius: 5px; }
