@@ -1,17 +1,18 @@
 body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
-header background: header header {
-    background: rgba(0, 123, 255, 0.8); /* Stylish blue background */
+header background: header header header {
+    background: rgba(0, 123, 255, 0.9); /* Blue color with slight transparency */
     color: white; /* White text */
-    padding: 40px; /* Space inside the header */
-    border-radius: 20px; /* Rounded edges */
-    width: 85%; /* Width control */
-    margin: 20px auto; /* Center the header */
-    text-align: center; /* Center text */
+    padding: 60px 20px; /* Increase padding to make it taller */
+    width: 100vw; /* Cover full width */
+    height: 200px; /* Adjust height to extend upwards */
+    position: relative; /* Ensures it expands upwards */
+    top: -50px; /* Moves it slightly up */
+    left: 0; /* Aligns to the left */
+    text-align: center; /* Centers text */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    backdrop-filter: blur(10px); /* Apply blur effect */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
     
     font-family: 'Poppins', sans-serif; /* Stylish font */
     font-weight: 700; /* Bold text */
